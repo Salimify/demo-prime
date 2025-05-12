@@ -10,7 +10,7 @@
 
 /projects/demo-prime-preview/dist/
 /projects/demo-prime-preview/.angular/
-
+.angular
 /coverage/
 /build/
 /lib/
