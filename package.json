@@ -1,0 +1,42 @@
+{
+  "name": "@salimify/demo-prime-workspace",
+  "type": "module",
+  "private": true,
+  "author": {
+    "name": "Salim Ben Hassine",
+    "email": "salim@example.com"
+  },
+  "scripts": {
+    "build": "ng build demo-prime",
+    "bundle": "rollup -c",
+    "clean": "rimraf dist",
+    "build:lib": "npm run clean && npm run build && npm run bundle",
+    "publish:lib": "cd dist/demo-prime && npm publish --access public",
+    "preview:dev": "ng serve demo-prime-preview"
+  },
+  "dependencies": {
+    "@angular/animations": "18.0.1",
+    "@angular/cdk": "18.0.1",
+    "@angular/common": "18.0.1",
+    "@angular/core": "18.0.1",
+    "@angular/platform-browser": "18.0.1",
+    "@angular/platform-browser-dynamic": "18.0.1",
+    "@angular/router": "^18.0.1",
+    "primeicons": "^6.0.0",
+    "primeng": "^17.4.0"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "18.0.1",
+    "@angular/cli": "18.0.1",
+    "@angular/compiler": "18.0.1",
+    "@angular/compiler-cli": "18.0.1",
+    "@rollup/plugin-terser": "^0.4.4",
+    "http-server": "^14.1.1",
+    "ng-packagr": "18.2.1",
+    "rimraf": "^5.0.0",
+    "rollup": "^2.79.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "typescript": "5.4.5"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "../../dist/out-tsc",
+    "declaration": true,
+    "declarationMap": true,
+    "target": "es2022",
+    "module": "es2022",
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "types": [],
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true
+  },
+  "angularCompilerOptions": {
+    "enableIvy": true,
+    "compilationMode": "partial"
+  }
+}

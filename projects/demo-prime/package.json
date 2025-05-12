@@ -1,0 +1,32 @@
+{
+  "name": "@salimify/demo-prime",
+  "version": "0.0.2",
+  "author": {
+    "name": "Salim Ben Hassine",
+    "email": "salim@example.com"
+  },
+  "description": "PrimeNG-based UI component library by SQUER",
+  "keywords": ["angular", "primeng", "component library", "ui"],
+  "license": "MIT",
+  "peerDependencies": {
+    "@angular/core": "^18.0.0",
+    "@angular/common": "^18.0.0",
+    "primeng": "^18.0.0"
+  },
+  "module": "fesm2022/demo-prime.js",
+  "typings": "public-api.d.ts",
+  "exports": {
+    ".": {
+      "types": "./public-api.d.ts",
+      "import": "./fesm2022/demo-prime.js"
+    }
+  },
+  "files": [
+    "fesm2022/",
+    "bundles/",
+    "public-api.d.ts",
+    "package.json",
+    "README.md"
+  ],
+  "sideEffects": false
+}
